@@ -26,7 +26,6 @@ const App = createHashRouter([
     ],
 
   },
-
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <RouterProvider router={App} />
